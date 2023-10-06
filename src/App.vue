@@ -4,6 +4,7 @@
     <HeroSection />
     <ImageProduct />
     <FitStyle />
+    <ClassTimeline />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import NavBarSection from './components/NavBarSection.vue'
 import HeroSection from './components/HeroSection.vue'
 import ImageProduct from './components/ImageProduct.vue'
 import FitStyle from './components/FitStyle.vue'
+import ClassTimeline from './components/ClassTimeline.vue'
 
 export default {
   name: 'app',
@@ -19,7 +21,8 @@ export default {
     NavBarSection,
     HeroSection,
     ImageProduct,
-    FitStyle
+    FitStyle,
+    ClassTimeline
   }
 }
 </script>
