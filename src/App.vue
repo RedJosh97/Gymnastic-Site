@@ -2,21 +2,24 @@
   <div class="app">
     <NavBarSection />
     <HeroSection />
-    <LifeStyle />
+    <ImageProduct />
+    <FitStyle />
   </div>
 </template>
 
 <script>
 import NavBarSection from './components/NavBarSection.vue'
 import HeroSection from './components/HeroSection.vue'
-import LifeStyle from './components/LifeStyle.vue'
+import ImageProduct from './components/ImageProduct.vue'
+import FitStyle from './components/FitStyle.vue'
 
 export default {
   name: 'app',
   components: {
     NavBarSection,
     HeroSection,
-    LifeStyle
+    ImageProduct,
+    FitStyle
   }
 }
 </script>
