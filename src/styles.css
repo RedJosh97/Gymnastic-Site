@@ -11,9 +11,4 @@
 *{
     font-family: 'arial';
 }
-body{
-    background-image: url('/public//image/Rectangle\ 4.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 1rem 4.5rem;
-}
+
