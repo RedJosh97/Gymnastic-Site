@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-900 h-screen px-20 flex-wrap pt-12">
-    <HeadingProps title="instructors" />
+    <HeadingProps title="Instructors" />
     <div class="flex justify-between pt-10 items-center gap-5">
       <InstructorImageProps
         :image="'/public/image/Rectangle 17.png'"

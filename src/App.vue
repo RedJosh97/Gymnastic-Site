@@ -6,6 +6,8 @@
     <FitStyle />
     <ClassTimeline />
     <InstructorSlide />
+    <DownloadPlatform />
+    <TestimonialSlide />
   </div>
 </template>
 
@@ -16,6 +18,8 @@ import ImageProduct from './components/ImageProduct.vue'
 import FitStyle from './components/FitStyle.vue'
 import ClassTimeline from './components/ClassTimeline.vue'
 import InstructorSlide from './components/InstructorSlide.vue'
+import DownloadPlatform from './components/DownloadPlatform.vue'
+import TestimonialSlide from './components/TestimonialSlide.vue'
 
 export default {
   name: 'app',
@@ -25,7 +29,9 @@ export default {
     ImageProduct,
     FitStyle,
     ClassTimeline,
-    InstructorSlide
+    InstructorSlide,
+    DownloadPlatform,
+    TestimonialSlide
   }
 }
 </script>

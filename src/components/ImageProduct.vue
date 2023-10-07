@@ -10,8 +10,8 @@
           <img src="/public/image/image 9.png" />
         </div>
         <div class="flex gap-8">
-          <p class="text-2xl text-gray-400 font-medium">GYM</p>
-          <p class="text-xs text-gray-400 leading-5">
+          <p class="text-2xl text-gray-400 font-bold">GYM</p>
+          <p class="text-xs text-gray-400 font-bold leading-5">
             Expect a heart-pumping workout that will leave you feeling energized and accomplished.
             Our supportive community of like-minded individuals.
           </p>
@@ -85,7 +85,7 @@ export default {
 }
 .content {
   text-align: center;
-  color: rgb(167, 164, 164);
+  color: rgb(169, 169, 169);
   font-size: 18px;
   margin-top: -58px;
   font-weight: 900;

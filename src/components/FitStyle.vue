@@ -2,7 +2,7 @@
   <div class="pt-14 -z-50 -mt-3 bg-gray-950 h-full relative pb-20">
     <HeadingProps title="Fit for your style" />
     <div class="flex justify-center flex-col items-center">
-      <p class="text-white pt-8 max-w-2xl text-center text-base leading-5">
+      <p class="text-gray-400 pt-8 max-w-2xl text-center text-base leading-5">
         Wake up with a sunrise meditation, sweat it out with lunchtime HIIT, or unwind with an
         evening flow. You’ll find movement for every mood with classes sorted by time, style, and
         skill level.
