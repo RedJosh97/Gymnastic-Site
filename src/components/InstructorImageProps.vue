@@ -1,9 +1,9 @@
 <template>
-  <div class="flex items-center flex-col gap-1">
+  <div class="flex items-center flex-col gap-4 photo-slide">
     <img
       :src="image"
       alt="instrutor photo"
-      class="w-4/5 border-solid border-4 border-primary-color rounded-sm"
+      class="border-solid border-4 border-primary-color rounded-sm"
     />
     <p class="text-base text-gray-300">{{ name }}</p>
     <p class="text-xs text-gray-300">{{ description }}</p>
@@ -17,4 +17,9 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.photo-slide {
+  min-width: 180px;
+  max-width: 250px;
+}
+</style>
