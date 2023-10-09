@@ -2,7 +2,7 @@
   <div class="relative">
     <img src="/public/image/Rectangle 49.png" />
     <div
-      class="absolute top-0 left-0 px-20 pt-12 right-0 flex gap-9 flex-col justify-center items-center"
+      class="absolute max-lg:bg-gray-950 top-0 left-0 px-20 pt-12 right-0 flex gap-9 flex-col justify-center items-center"
     >
       <h3 class="text-3xl font-bold text-primary-color">SPYRO</h3>
       <p class="font-change text-center text-gray-400 max-w-3xl">
@@ -31,10 +31,16 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .social {
   color: var(--primary-color);
   font-size: 22px;
   padding: 5px;
+}
+
+@media (max-width: 700px) {
+  .change-font {
+    font-size: calc(2px + 0.2vw);
+  }
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
   <div
-    class="testimonial border-b-8 border-primary-color bg-black bg-opacity-40 p-8 flex gap-5 flex-col"
+    class="testimonial border-b-8 border-primary-color h-80 bg-black bg-opacity-40 p-8 flex gap-5 flex-col"
   >
-    <p class="font-change text-gray-400 h-20">{{ content }}</p>
+    <p class="font-change text-gray-400 h-40">{{ content }}</p>
     <div class="flex gap-2">
       <i class="lar la-star text-primary-color font-bold"></i>
       <i class="lar la-star text-primary-color font-bold"></i>
@@ -24,7 +24,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .testimonial {
   max-width: 530px;
   min-width: 240px;

@@ -61,9 +61,9 @@ export default {
   gap: 12px;
   height: 410px;
 
-  /* .class-image:hover {
+  .class-image:hover {
     border: 1.8px solid var(--primary-color);
-  } */
+  }
 }
 
 @media (max-width: 939px) {
@@ -74,6 +74,12 @@ export default {
 
   .class-image-clipper {
     max-width: 530px;
+  }
+}
+@media (max-width: 660px) {
+  .class-style {
+    width: 100%;
+    /* height: 580px; */
   }
 }
 </style>

@@ -13,7 +13,7 @@
         <i class="las la-angle-down"></i>
       </button>
     </div>
-    <div v-if="toggleBtn" class="p-8 bg-orange-900 transform -skew-x-12">
+    <div v-if="toggleBtn" class="p-8 bg-orange-900 transform -skew-x-12 max-md:skew-x-0">
       <p class="change-font">
         {{ content }}
       </p>

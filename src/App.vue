@@ -2,7 +2,7 @@
   <div class="app">
     <NavBarSection />
     <HeroSection />
-    <ImageProduct />
+    <!-- <ImageProduct /> -->
     <FitStyle />
     <ClassTimeline />
     <InstructorSlide />
@@ -16,7 +16,7 @@
 <script>
 import NavBarSection from './components/NavBarSection.vue'
 import HeroSection from './components/HeroSection.vue'
-import ImageProduct from './components/ImageProduct.vue'
+// import ImageProduct from './components/ImageProduct.vue'
 import FitStyle from './components/FitStyle.vue'
 import ClassTimeline from './components/ClassTimeline.vue'
 import InstructorSlide from './components/InstructorSlide.vue'
@@ -30,7 +30,7 @@ export default {
   components: {
     NavBarSection,
     HeroSection,
-    ImageProduct,
+    // ImageProduct,
     FitStyle,
     ClassTimeline,
     InstructorSlide,

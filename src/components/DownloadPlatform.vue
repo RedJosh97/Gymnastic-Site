@@ -12,14 +12,14 @@
         <img src="/public/image/image 14.png" class="andriod" />
       </div>
     </div>
-    <div class="flex item-center gap-5 relative">
+    <!-- <div class="flex item-center gap-5 relative">
       <img
         src="/public/image/iPhone 13 Pro.png"
         class="image-large absolute -bottom-7 left-24 right-0 w-56"
       />
       <img src="/public/image/iPhone 13 Pro.png" class="image-small" />
       <img src="/public/image/iPhone 13 Pro.png" class="image-small" />
-    </div>
+    </div> -->
   </div>
 </template>
 

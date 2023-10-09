@@ -21,8 +21,13 @@ export default {
 .photo-slide {
   width: 48%;
 }
-
 .photo-img {
   width: 630px;
+}
+
+@media (max-width: 660px) {
+  .photo-slide {
+    width: 100%;
+  }
 }
 </style>

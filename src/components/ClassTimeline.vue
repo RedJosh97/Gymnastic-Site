@@ -86,4 +86,15 @@ export default {
     display: none;
   }
 }
+
+/* @media (max-width: 660px) {
+  .class-image-access {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 50%;
+    gap: 12px;
+    margin-top: 18px;
+  }
+} */
 </style>
