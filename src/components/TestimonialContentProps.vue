@@ -24,7 +24,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .testimonial {
   max-width: 530px;
   min-width: 240px;

@@ -15,7 +15,8 @@
 
 <script>
 export default {
-  name: 'NavBarSection.vue'
+  name: 'NavBarSection.vue',
+  emits: ['closeDiag']
 }
 </script>
 

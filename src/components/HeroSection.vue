@@ -7,6 +7,9 @@
     />
   </div>
   <div id="hero-content" class="max-md:px-6 px-20 pt-14 absolute top-0 left-0 right-0">
+    <button @click="openMenu" class="hamburger pointer md:hidden rounded-md bg-white">
+      <i class="las la-bars text-2xl p-1 text-primary-color font-extrabold"></i>
+    </button>
     <div class="max-w-xl">
       <p
         id="design-style"
@@ -31,7 +34,16 @@
 
 <script>
 export default {
-  name: 'HeroSection'
+  name: 'HeroSection',
+  data() {
+    closeDiag: false
+  },
+  methods: {
+    openMenu() {
+      this.$emit('closeDiag')
+      console.log('open menu')
+    }
+  }
 }
 </script>
 
@@ -55,6 +67,16 @@ span {
 @media (max-width: 760px) {
   #hero-content {
     margin-top: -8rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 12px;
+    z-index: 1000;
+    right: 20px;
   }
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div class="relative">
     <img src="/public/image/Rectangle 12.png" class="h-screen w-screen" />
-    <div class="absolute top-0 left-0 right-0 px-20 pt-16">
+    <div class="absolute top-0 left-0 right-0 px-20 pt-28">
       <HeadingProps title="Client Feeback" />
-      <div class="pt-10 flex gap-7 justify-between items-center">
+      <div class="pt-16 flex gap-7 justify-between items-center">
         <TestimonialContentProps
           content="Al-Balad is essentially Jeddah old town. It was once surrounded by a wall, but now only the gates rendering"
           :profileImage="'/public/image/Ellipse 5.png'"
