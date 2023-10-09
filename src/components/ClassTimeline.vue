@@ -79,7 +79,7 @@ export default {
   }
 
   .btn-class {
-    position: block;
+    position: static;
   }
 
   .background-class-image {
