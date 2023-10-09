@@ -1,7 +1,7 @@
 <template>
   <div class="relative">
     <img src="/public/image/Rectangle 12.png" class="h-screen w-screen" />
-    <div class="absolute top-0 left-0 right-0 px-20 pt-28">
+    <div class="absolute top-0 left-0 right-0 px-20 pt-14">
       <HeadingProps title="Client Feeback" />
       <div class="pt-16 flex gap-7 justify-between items-center">
         <TestimonialContentProps

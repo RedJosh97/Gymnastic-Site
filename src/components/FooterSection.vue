@@ -17,8 +17,10 @@
         <i class="social lab la-linkedin-in"></i>
         <i class="social lab la-whatsapp"></i>
       </div>
-      <hr class="w-4/5" />
-      <p class="text-xs -mt-7 text-gray-400">&copy; SPYRO 2023. All rights reserved.</p>
+
+      <div class="w-full border-t-2 pt-3 border-gray-400">
+        <p class="text-xs text-center text-gray-400">&copy; SPYRO 2023. All rights reserved.</p>
+      </div>
     </div>
   </div>
 </template>

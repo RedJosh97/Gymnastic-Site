@@ -19,7 +19,10 @@ export default {
 
 <style scoped>
 .photo-slide {
-  min-width: 180px;
-  max-width: 250px;
+  width: 48%;
+}
+
+.photo-img {
+  width: 630px;
 }
 </style>

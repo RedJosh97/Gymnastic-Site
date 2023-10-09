@@ -1,13 +1,14 @@
 <template>
-  <div class="-mt-2 relative">
+  <!-- class="-mt-2 relative h-full down" -->
+  <div class="relative h-full down">
     <div>
-      <img src="/public/image/Rectangle 12.png" class="w-full" />
+      <img src="/public/image/Rectangle 12.png" class="background-class-image w-full" />
     </div>
-    <div></div>
-    <div class="px-20 pt-5 absolute top-0 bottom-0 z-10 w-full">
+    <!-- absolute top-0 bottom-0 z-10 down -->
+    <div class="cont-display px-20 pt-5 absolute top-0 bottom-0 z-10 down">
       <HeadingProps title="Classes" />
       <div>
-        <div class="flex gap-16 justify-between mt-5 items-center">
+        <div class="class-image-access flex gap-16 justify-between mt-5 items-center">
           <ClassImageProps
             sport="Yoga"
             :classImage="'/public/image/Rectangle 13.png'"
@@ -39,7 +40,7 @@
             difficulty="Hard"
           />
         </div>
-        <div class="flex justify-center absolute bottom-3 left-0 right-0">
+        <div class="btn-class flex justify-center items-center absolute bottom-3 left-0 right-0">
           <button class="px-12 py-3 text-white bg-primary-color text-md">See all</button>
         </div>
       </div>
@@ -60,4 +61,29 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+@media (max-width: 939px) {
+  .class-image-access {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 50%;
+    gap: 12px;
+    margin-top: 18px;
+  }
+
+  .cont-display {
+    padding-top: 34px;
+    position: inherit;
+    background: rgba(1, 3, 23, 0.9);
+  }
+
+  .btn-class {
+    position: block;
+  }
+
+  .background-class-image {
+    display: none;
+  }
+}
+</style>

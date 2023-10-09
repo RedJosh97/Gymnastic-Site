@@ -2,9 +2,12 @@
   <div class="class-style">
     <div class="relative flex justify-center">
       <img :src="classImage" class="class-image" />
-      <img src="/public/image/Rectangle 11.png" class="absolute bottom-5 left-0 right-0 -z-10" />
+      <img
+        src="/public/image/Rectangle 11.png"
+        class="class-image-clipper absolute bottom-3 left-0 right-0 -z-10"
+      />
     </div>
-    <div class="flex justify-between -mt-6">
+    <div class="flex justify-between -mt-3">
       <p class="text-gray-200 text-xs">
         <i class="las la-check-circle text-[#ff6400]"></i> {{ sport }}
       </p>
@@ -55,12 +58,22 @@ export default {
   flex-direction: column;
   padding: 7px 0;
   min-width: 200px;
-  width: 100%;
   gap: 12px;
   height: 410px;
 
-  .class-image:hover {
-    border: 1.5px solid var(--primary-color);
+  /* .class-image:hover {
+    border: 1.8px solid var(--primary-color);
+  } */
+}
+
+@media (max-width: 939px) {
+  .class-style {
+    min-width: 530px;
+    height: 580px;
+  }
+
+  .class-image-clipper {
+    max-width: 530px;
   }
 }
 </style>
