@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex justify-between py-4 items-center border-b-4 solid border-gray-400">
+    <div class="flex justify-between py-4 items-center border-b-4 solid gap-7 border-gray-400">
       <p class="text-white">{{ title }}</p>
       <button
         v-if="(changeToggle = !changeToggle)"

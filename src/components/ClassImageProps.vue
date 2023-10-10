@@ -57,7 +57,7 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 7px 0;
-  min-width: 200px;
+  /* min-width: 200px; */
   gap: 12px;
   height: 410px;
 
@@ -78,8 +78,21 @@ export default {
 }
 @media (max-width: 660px) {
   .class-style {
-    width: 100%;
+    width: 300px;
+    /* display: none; */
     /* height: 580px; */
+  }
+
+  .class-image {
+    width: 100%;
+  }
+  .class-image-clipper {
+    width: 100%;
+  }
+
+  .class-style {
+    height: auto;
+    min-width: auto;
   }
 }
 </style>

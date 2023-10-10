@@ -1,15 +1,16 @@
 <template>
-  <div class="relative -z-50 -mt-12">
+  <div class="relative -z-40 -mt-12">
     <img
-      class="w-screen object-top object-cover"
+      class="w-screen max-sm:hidden object-top object-cover"
       src="/public/image/Rectangle 4.png"
       alt="background-image"
     />
+    <img class="show-image sm:hidden" src="/public/image/Rectangle 4.png" alt="background-image" />
   </div>
-  <div id="hero-content" class="max-md:px-6 px-20 pt-14 absolute top-0 left-0 right-0">
-    <button @click="openMenu" class="hamburger pointer md:hidden rounded-md bg-white">
-      <i class="las la-bars text-2xl p-1 text-primary-color font-extrabold"></i>
-    </button>
+  <div
+    id="hero-content"
+    class="max-sm:static -z-30 max-md:px-6 px-20 pt-14 absolute top-0 left-0 right-0"
+  >
     <div class="max-w-xl">
       <p
         id="design-style"
@@ -34,16 +35,7 @@
 
 <script>
 export default {
-  name: 'HeroSection',
-  data() {
-    closeDiag: false
-  },
-  methods: {
-    openMenu() {
-      this.$emit('closeDiag')
-      console.log('open menu')
-    }
-  }
+  name: 'HeroSection'
 }
 </script>
 
@@ -70,13 +62,37 @@ span {
   }
 }
 
-@media only screen and (max-width: 767px) {
-  .hamburger {
+@media (max-width: 700px) {
+  /* .hamburger {
     display: block;
     position: absolute;
-    top: 12px;
+    top: 120px;
+    top: 55px;
     z-index: 1000;
-    right: 20px;
+    right: 25px;
+  } */
+}
+
+@media only screen and (max-width: 640px) {
+  #hero-content {
+    padding-top: -30px;
+  }
+
+  .show-image {
+    display: hidden;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* z-index: 10; */
+  }
+
+  @media only screen and (max-width: 370px) {
+    #hero-content {
+      text-align: center;
+    }
   }
 }
 </style>

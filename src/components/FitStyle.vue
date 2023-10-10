@@ -38,11 +38,22 @@ export default {
 @media (max-width: 800px) {
   .fit-style {
     max-width: 70%;
+    font-size: calc(3px + 2vw);
   }
 
   .fit-img {
-    /* width: 250px; */
     width: 450px;
+  }
+}
+
+@media (max-width: 552px) {
+  .fit-img {
+    width: 350px;
+  }
+}
+@media (max-width: 500px) {
+  .fit-img {
+    width: 280px;
   }
 }
 </style>

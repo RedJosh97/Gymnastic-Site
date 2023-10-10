@@ -97,4 +97,14 @@ export default {
     margin-top: 18px;
   }
 } */
+@media (max-width: 660px) {
+  .class-image-access {
+    width: 50%;
+    gap: 30px;
+  }
+
+  .btn-class {
+    margin-top: 30px;
+  }
+}
 </style>

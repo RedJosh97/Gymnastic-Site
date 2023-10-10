@@ -33,4 +33,13 @@ export default {
 .font-change {
   font-size: calc(4px + 1vw);
 }
+
+@media (max-width: 600px) {
+  .testimonial {
+    text-align: center;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
 </style>

@@ -25,7 +25,7 @@ export default {
   width: 630px;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 677px) {
   .photo-slide {
     width: 100%;
   }

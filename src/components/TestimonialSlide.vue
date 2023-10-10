@@ -5,11 +5,6 @@
       <HeadingProps title="Client Feeback" />
       <div class="testimonial-float pt-16 flex gap-7 justify-between items-center">
         <TestimonialContentProps
-          content="I had been to Al Balad several times. It is one of my favorite places in Jeddah. It is historic, ful"
-          :profileImage="'/public/image/Ellipse 5-2.png'"
-          name="Jane Cooper"
-        />
-        <TestimonialContentProps
           content="Al-Balad is essentially Jeddah old town. It was once surrounded by a wall, but now only the gates rendering"
           :profileImage="'/public/image/Ellipse 5.png'"
           name="Courtney Henry"
@@ -28,11 +23,6 @@
           content="This a great historic site to visit. I rented a little cart and the driver was a really good friendly"
           :profileImage="'/public/image/Ellipse 5-1.png'"
           name="Brooklyn Simmon"
-        />
-        <TestimonialContentProps
-          content="I had been to Al Balad several times. It is one of my favorite places in Jeddah. It is historic, ful"
-          :profileImage="'/public/image/Ellipse 5-2.png'"
-          name="Jane Cooper"
         />
       </div>
     </div>
@@ -55,12 +45,11 @@ export default {
 <style scoped>
 @media (max-width: 1024px) {
   .overflow {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .testimonial-float {
     overflow-x: scroll;
-    /* padding: 13px 8px; */
   }
 
   .testimonial-display {
