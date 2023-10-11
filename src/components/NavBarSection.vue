@@ -28,7 +28,8 @@ export default {
   },
   data() {
     return {
-      openMenu: true
+      openMenu: true,
+      list: []
     }
   }
 }
