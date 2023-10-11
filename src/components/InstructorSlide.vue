@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 px-20 flex-wrap py-12">
+  <div id="gallery" class="bg-gray-900 px-20 flex-wrap py-12">
     <HeadingProps title="Instructors" />
     <div class="flex max-lg:flex-wrap pt-10 justify-between items-center gap-5">
       <InstructorImageProps

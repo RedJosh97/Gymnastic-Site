@@ -31,7 +31,7 @@ export default {
 }
 
 .font-change {
-  font-size: calc(4px + 1vw);
+  font-size: calc(5px + 1vw);
 }
 
 @media (max-width: 600px) {

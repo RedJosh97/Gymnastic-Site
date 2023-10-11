@@ -1,8 +1,8 @@
 <template>
-  <div class="relative">
+  <div id="aboutus" class="relative">
     <img src="/public/image/Rectangle 49.png" />
     <div
-      class="absolute max-lg:bg-gray-950 top-0 left-0 px-20 py-12 right-0 flex gap-9 flex-col justify-center items-center"
+      class="absolute max-2xl:bg-gray-950 top-0 left-0 px-20 py-12 right-0 flex gap-9 flex-col justify-center items-center"
     >
       <h3 class="text-3xl font-bold text-primary-color">SPYRO</h3>
       <p class="font-change text-center text-gray-400 max-w-3xl">

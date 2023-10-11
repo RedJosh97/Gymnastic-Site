@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow relative">
+  <div id="team" class="overflow relative">
     <img src="/public/image/Rectangle 12.png" class="h-screen w-screen" />
     <div class="testimonial-display absolute top-0 left-0 right-0 px-20 pt-14">
       <HeadingProps title="Client Feeback" />

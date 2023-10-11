@@ -1,6 +1,6 @@
 <template>
   <!-- class="-mt-2 relative h-full down" -->
-  <div class="relative h-full down">
+  <div id="classes" class="relative h-full down">
     <div>
       <img src="/public/image/Rectangle 12.png" class="background-class-image w-full" />
     </div>
